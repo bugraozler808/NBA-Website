@@ -73,8 +73,7 @@ button {
 }
 
 a:hover {
-  background-color: #fbcd44;
-  color: black;
+  color: #fbcd44;
   border-radius: 4px;
 }
 
@@ -106,19 +105,80 @@ a:hover {
   font-size: 17px;
   font-weight: 500;
 }
+#nlp:hover {
+  color: #cfba7a;
+}
 
 select {
   background-color: #ffffff;
   color: black;
-  width: 170px;
+  width: 155px;
   padding: 8px;
   border: none;
   border-radius: 9px;
   font-family: "Roboto Slab", serif;
   cursor: pointer;
-  margin-right: 75px;
+  margin-right: 70px;
 }
 
 .sub {
-  margin-right: 39px;
+  margin-right: 60px;
+  padding: 9px;
+  cursor: pointer;
+}
+
+main {
+  background-image: url("img/LebronMain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 94vh;
+}
+
+.card1 {
+  position: absolute;
+  top: 488px;
+  left: 600px;
+  width: 325px;
+  height: 360px;
+  padding: 24px 33px 24px 33px;
+  background-color: rgb(247, 246, 248);
+  border-radius: 30px;
+  font-family: "Roboto Slab", serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+.card2 {
+  position: absolute;
+  top: 488px;
+  right: 600px;
+  width: 325px;
+  height: 360px;
+  padding: 24px 33px 24px 33px;
+  background-color: rgb(247, 246, 248);
+  border-radius: 30px;
+  font-family: "Roboto Slab", serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.textcard {
+  position: absolute;
+  top: 240px;
+  left: 660px;
+  right: 700px;
+  width: 625px;
+  height: 360px;
+  font-family: "Roboto Slab", serif;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.h3center {
+  text-align: center;
+  font-size: 25px;
+  color: rgb(247, 246, 248);
+}
+.textcm {
+  color: rgb(247, 246, 248);
 }
